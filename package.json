@@ -1,0 +1,34 @@
+{
+  "name": "@flaconi/eslint-config-typescript",
+  "version": "1.0.2",
+  "description": "eslint config for typescript based projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flaconi/eslint-config-typescript.git"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.7.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "typescript",
+    "flaconi"
+  ],
+  "author": "stavros.liaskos@flaconi.de",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Flaconi/eslint-config-typescript/issues"
+  },
+  "homepage": "https://github.com/Flaconi/eslint-config-typescript#readme"
+}
