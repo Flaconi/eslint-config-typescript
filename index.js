@@ -18,7 +18,7 @@ module.exports = {
         'import/no-extraneous-dependencies': [
             'error',
             {
-                devDependencies: ['tests/**/*.ts'],
+                devDependencies: ['{tests,__tests__,mocks,__mocks__}/**/*.ts'],
                 bundledDependencies: true,
                 optionalDependencies: false,
                 peerDependencies: false,
