@@ -30,6 +30,7 @@ module.exports = {
         'no-undef': 'off',
         quotes: ['error', 'single'],
         'prettier/prettier': 'error',
+        'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'error'
     },
 };
