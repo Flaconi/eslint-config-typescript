@@ -9,6 +9,23 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     plugins: ['@typescript-eslint', 'eslint-plugin-prettier', 'eslint-plugin-import'],
     rules: {
+        'import/order': [
+            'error',
+            {
+                groups: ['builtin', 'external', 'internal', ['parent', 'sibling']],
+                'newlines-between': 'always',
+                alphabetize: {
+                    order: 'asc',
+                    caseInsensitive: true,
+                },
+            },
+        ],
+        'sort-imports': [
+            'error',
+            {
+                ignoreDeclarationSort: true,
+            },
+        ],
         'import/no-unresolved': [
             'error',
             {
