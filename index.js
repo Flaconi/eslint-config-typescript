@@ -42,9 +42,9 @@ module.exports = {
             },
         ],
         '@typescript-eslint/no-explicit-any': 'error',
-        'no-tabs': ['off'],
-        'no-mixed-spaces-and-tabs': ['off'],
-        'no-undef': 'off',
+        'no-tabs': ['error'], // check no-tabs rule config to allow tabes in comments ?
+        'no-mixed-spaces-and-tabs': ['error'],
+        'no-undef': 'error',
         quotes: ['error', 'single'],
         'prettier/prettier': 'error',
         'no-unused-vars': 'off',
