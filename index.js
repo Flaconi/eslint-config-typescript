@@ -43,8 +43,8 @@ module.exports = {
         ],
         '@typescript-eslint/no-explicit-any': 'error',
         quotes: ['error', 'single'],
-        'prettier/prettier': 'error',
         '@typescript-eslint/no-unused-vars': 'error',
+        'object-shorthand': 'off',
         'prettier/prettier': [
             'error',
             {
