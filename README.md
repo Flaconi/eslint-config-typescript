@@ -9,12 +9,10 @@ This is not meant to be used for frontend projects React/Vue etc.
 ### Install deps
 Install the correct versions of each package, which are listed by the command:
 ```shell
-npm info "@flaconi/eslint-config-typescript@latest" peerDependencies
+yarn add @flaconi/eslint-config-typescript@latest
 ```
-Or use this command (works for both `npm` and `yarn`)
-```shell
-npx install-peerdeps --dev @flaconi/eslint-config-typescript@latest
-```
+
+If you are migrating old service to new plugin first please make sure to first remove old dependencies that are duplicates like example `yarn remove eslint prettier @typescript-eslint/eslint-plugin etc`
 
 ### Config
 Add the following to your `.eslintrc.js`:
@@ -29,6 +27,10 @@ module.exports = {
 ## Develop
 More info on how to develop your custom eslint config can be found here: https://eslint.org/docs/developer-guide/shareable-configs
 
+To develop locally you can install with `yarn add --dev pathtolocalfile` example
+`yarn add --dev /Users/kristi.jorgji/Desktop/fl-lite/eslint-config-typescript`
+ 
+You need to run the above command after every plugin change.
 ## License
 
 [MIT](LICENSE) © Flaconi GmbH
