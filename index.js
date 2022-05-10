@@ -42,12 +42,22 @@ module.exports = {
             },
         ],
         '@typescript-eslint/no-explicit-any': 'error',
-        'no-tabs': ['off'],
-        'no-mixed-spaces-and-tabs': ['off'],
-        'no-undef': 'off',
         quotes: ['error', 'single'],
         'prettier/prettier': 'error',
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': 'error'
+        '@typescript-eslint/no-unused-vars': 'error',
+        'prettier/prettier': [
+            'error',
+            {
+                arrowParens: 'avoid',
+                bracketSpacing: true,
+                printWidth: 120,
+                semi: true,
+                singleQuote: true,
+                tabWidth: 4,
+                trailingComma: 'all',
+                useTabs: false,
+                endOfLine: "lf"
+            },
+          ],
     },
 };
