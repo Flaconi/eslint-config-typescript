@@ -1,6 +1,8 @@
 # @flaconi/eslint-config-typescript
 
-[Flaconi's](https://www.flaconi.de/) shareable eslint config
+[Flaconi's](https://www.flaconi.de/) shareable eslint config for `Typescript Backend Services Only`
+
+This is not meant to be used for frontend projects React/Vue etc.
 
 
 ## Usage
